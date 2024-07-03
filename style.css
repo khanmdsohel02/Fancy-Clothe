@@ -84,7 +84,7 @@ body {
   font-size: 1.3rem;
   font-weight: 600;
   color: #a87b7b;
-  transition: 0.5s ease;
+  transition: all 0.7s ease;
   position: relative;
 }
 .menu-items li a:hover,
@@ -139,6 +139,12 @@ body {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
+  margin-top: 2rem;
+  transition: all 0.5s ease;
+}
+.hero-content button:hover {
+  background: #fff;
+  color: #a87b7b;
 }
 /* Hero Styles End */
 
@@ -169,7 +175,7 @@ body {
 
 .card:hover {
   background: #a87b7b;
-  transition: 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
   box-shadow: none;
 }
 
@@ -255,6 +261,7 @@ p {
   display: grid;
   place-content: center;
   border-radius: 50%;
+  transition: all 0.5s ease;
 }
 .product-card .details .price-addToCard a i:hover {
   background: #a87b7b;
@@ -289,6 +296,7 @@ p {
   font-size: 1.2rem;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 #CTA .cta-btn:hover {
   background: #fff;
