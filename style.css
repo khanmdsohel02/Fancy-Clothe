@@ -22,18 +22,15 @@ html {
 h1 {
   font-size: 50px;
   line-height: 64px;
-  color: #222;
 }
 
 h2 {
   font-size: 46px;
   line-height: 54px;
-  color: #222;
 }
 
 h4 {
   font-size: 20px;
-  color: #222;
 }
 
 h6 {
@@ -42,9 +39,7 @@ h6 {
 }
 
 p {
-  font-size: 16px;
-  color: #465b52;
-  margin: 15px 0 20px 0;
+  margin: 1rem 0 1rem 0;
 }
 a {
   text-decoration: none;
@@ -189,26 +184,37 @@ body {
 
 /* features Styles End */
 
-/* features products  start*/
-#featured-products {
+/* features products & new-arrivals products start*/
+#featured-products,
+#new-arrivals-products {
   margin-top: 5rem;
   text-align: center;
 }
-#featured-products .products {
+#featured-products h1,
+p,
+#new-arrivals-products h1,
+p {
+  color: #a87b7b;
+}
+#featured-products .products,
+#new-arrivals-products .products {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
   margin-top: 2rem;
 }
 
-#featured-products .product-card {
+#featured-products .product-card,
+#new-arrivals-products .product-card {
   border: 1px solid #dad4d4;
   border-radius: 1rem;
 }
-#featured-products .product-card:hover {
+#featured-products .product-card:hover,
+#new-arrivals-products .product-card:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.06);
 }
-#featured-products .product-card img {
+#featured-products .product-card img,
+#new-arrivals-products .product-card img {
   width: 100%;
   padding: 0.7rem;
   border-radius: 1.3rem 1.3rem 0 0;
@@ -250,5 +256,122 @@ body {
   place-content: center;
   border-radius: 50%;
 }
+.product-card .details .price-addToCard a i:hover {
+  background: #a87b7b;
+  color: #fff;
+}
 
-/* features products  end*/
+/* features products & new-arrivals products  end*/
+
+/* CTA Styles start */
+
+#CTA {
+  margin-top: 5rem;
+  background: url(img/banner/b2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 7rem 0;
+}
+#CTA p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+#CTA .cta-btn {
+  background: #a87b7b;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+#CTA .cta-btn:hover {
+  background: #fff;
+  color: #a87b7b;
+}
+/* CTA Styles End */
+
+/* deals & banners */
+
+.deals-banners .deals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 5rem;
+  color: #fff;
+}
+.deals-banners .deals p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.deals-banners .deals h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.deals-banners .deals span {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.deals-banners .deals a {
+  color: #fff;
+  font-weight: 600;
+}
+.deals-banners .deal1 {
+  background: url(img/banner/b17.jpg) no-repeat;
+  background-size: cover;
+  padding: 7rem 2rem;
+}
+.deals-banners .deal1 a {
+  background: #a87b7b;
+  padding: 0.7rem 1.3rem;
+}
+.deals-banners .deal2 {
+  background: url(img/banner/b10.jpg) no-repeat;
+  background-size: cover;
+  padding: 7rem 2rem;
+}
+.deals-banners .deal2 a {
+  padding: 0.7rem 1.3rem;
+  border: 1px solid #fff;
+}
+.deals-banners .banners {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  color: #fff;
+}
+.deals-banners .banners p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+}
+.deals-banners .banners .banner1 {
+  background: url(img/banner/b7.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 7rem 2rem;
+  width: 100%;
+}
+.deals-banners .banners .banner2 {
+  background: url(img/banner/b4.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 7rem 2rem;
+  width: 100%;
+}
+.deals-banners .banners .banner3 {
+  background: url(img/banner/b18.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 7rem 2rem;
+  width: 100%;
+}
+
+/* deals & banners end */
