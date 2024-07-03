@@ -375,3 +375,113 @@ p {
 }
 
 /* deals & banners end */
+
+/* Newsletter start */
+
+#newsletter {
+  margin-top: 5rem;
+  padding: 4rem 0;
+  background: rgba(3, 3, 70, 0.863);
+}
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff;
+}
+.newsletter .content p {
+  color: #e2e1e1;
+  font-weight: 600;
+}
+.newsletter .content span {
+  color: #a87b7b;
+}
+.newsletter .form {
+  display: flex;
+  width: 40%;
+}
+.newsletter .form input {
+  width: 100%;
+  padding: 1rem;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+  font-size: 1rem;
+}
+.newsletter .form button {
+  width: 30%;
+  background: #a87b7b;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* Newsletter end */
+
+/* footer start */
+.footer {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2rem 0;
+  color: #a87b7b;
+}
+.footer h5 {
+  font-size: 1.2rem;
+}
+.footer .contact {
+  line-height: 2rem;
+}
+.footer .contact .logo {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+.footer .contact address {
+  font-style: normal;
+  line-height: 1rem;
+}
+.footer .contact address span {
+  font-weight: 700;
+}
+.footer .contact .social {
+  display: flex;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+.footer .contact .social i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.footer .about ul,
+.footer .my-Account ul {
+  padding-top: 1rem;
+}
+.footer .about ul li,
+.footer .my-Account ul li {
+  width: max-content;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.footer .about ul li a,
+.footer .my-Account ul li a {
+  color: #a87b7b;
+}
+
+.footer .install-app .row img {
+  border: 1px solid #dad4d4;
+  border-radius: 0.5rem;
+}
+footer .copyright {
+  text-align: center;
+  margin-bottom: 4rem;
+}
